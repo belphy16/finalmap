@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   		 <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="options-box">
+        <h1>Kottayam: The Famous Places</h1>
+        <div>
+            
+          <input type="search" class="textbox" placeholder="Type your search here..."    data-bind="value: txtSearch,valueUpdate: 'keyup'" >         
+          <div data-bind="html: locationlist"></div>
+          	
+        </div>
+      </div>
+      <div id="map"></div>
+    </div>
+    
+    <script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/knockout.js"></script>
+    <script src="js/code.js"></script>
+    
+   
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8hWrQF0K4J81NQN16B8Yi1NC5_4gD25Y&libraries=geometry&v=3&callback=initMap">
+        
+    </script>
+    
+    <script></script>
+    
+    
+
+
+  </body>
+</html>
